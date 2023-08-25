@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ecf0f1;
+}
+
+header,
+section h2,
+section h3,
+form button,
+.btn-comprar {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 116, 136);
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(0, 116, 136);
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.img-artist {
+    margin-right: 32px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section h2,
+section h3 {
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.container h2 {
+    margin-top: 70px;
+}
+
+section p {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.txt-valor {
+    text-align: center;
+    font-weight: bold;
+    color: #4a5355
+}
+
+
+section .container p {
+    margin-right: 10px;
+}
+
+#about .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones-social img {
+    height: 28px;
+}
+
+.icones-social li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.icones-social a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+    margin-top: 6px;
+}
+
+form input,
+form textarea,
+form button,
+.btn-comprar {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 8px;
+   
+}
+
+.form {
+    padding-bottom: 60px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: rgb(0, 116, 136);
+    color: #ecf0f1;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(1, 81, 96);
+}
+
+.btn-comprar {
+    background-color: rgb(0, 116, 136);
+    color: #ecf0f1;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-comprar:hover {
+    background-color: rgb(1, 81, 96);
+}
+
+footer {
+    background-color: rgb(0, 116, 136);
+    color: #ecf0f1;
+    padding: 16px 0
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(0, 116, 136);
+}
